@@ -61,7 +61,7 @@ ActiveRoute =
   name: (routeName, routeParams = {}) ->
     checkRouterPackages()
 
-    return if (Meteor.isServer && !Package['kadira:flow-router-ssr'])
+    return if (Meteor.isServer && !Package['baotuan:flow-router-ssr'])
 
     checkRouteOrPath routeName
     checkParams routeParams
