@@ -13,7 +13,7 @@ checkParams = (arg) ->
     throw new Error errorMessages.invalidRouteParamsArgument
 
 checkRouterPackages = ->
-  fr = Package['kadira:flow-router'] ? Package['meteorhacks:flow-router'] ? Package['kadira:flow-router-ssr']
+  fr = Package['kadira:flow-router'] ? Package['meteorhacks:flow-router'] ? Package['baotuan:flow-router-ssr']
   ir = Package['iron:router']
   throw new Error errorMessages.noSupportedRouter unless ir or fr
 

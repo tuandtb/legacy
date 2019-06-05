@@ -2,7 +2,7 @@ Package.describe({
   git: "https://github.com/tuandtb/legacy.git",
   name: "baotuan:active-route",
   summary: "Active route helpers",
-  version: "2.3.3-rc.2"
+  version: "2.3.3-rc.3"
 });
 
 Package.onUse(function(api) {

@@ -95,4 +95,4 @@ helpers =
 
   isNotActivePath: isActive 'Path', true
 
-Template.registerHelper name, func for own name, func of helpers
+# Template.registerHelper name, func for own name, func of helpers
